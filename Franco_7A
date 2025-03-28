@@ -86,6 +86,10 @@
                 <td>@1tiagofr</td>
             </tr>
         </table>
+<div>
+            <button class="button button-aceptar">Aceptar</button>
+            <button class="button button-cancelar">Cancelar</button>
+        </div>
     </div>
 </body>
 </html>
