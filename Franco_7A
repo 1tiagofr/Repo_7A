@@ -4,19 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Presentación</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e74c3c; /* Fondo rojo */
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-top: 20px;
+        }
+
+        img {
+            width: 300px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        table {
+            margin-top: 40px;
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid white;
+        }
+
+        th {
+            background-color: #c0392b;
+            font-size: 1.2em;
+        }
+
+        td {
+            background-color: #f2f2f2;
+            color: black;
+        }
+
+        .container {
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Presentación</h1>
-    
-    <img src="https://example.com/zorro.jpg" alt="Foto de un zorro" width="300">
-
-    <h2>Datos personales</h2>
-    <ul>
-        <li><strong>Nombre:</strong> Tiago</li>
-        <li><strong>Apellido:</strong> Franco</li>
-        <li><strong>Dirección:</strong> Zorrin 37</li>
-        <li><strong>Teléfono:</strong> 1100000000</li>
-        <li><strong>Instagram:</strong> @1tiagofr</li>
-    </ul>
+    <div class="container">
+        <h1>Presentación</h1>
+        <img src="https://example.com/zorro.jpg" alt="Foto de un zorro">
+        
+        <h2>Datos personales</h2>
+        <table>
+            <tr>
+                <th>Campo</th>
+                <th>Información</th>
+            </tr>
+            <tr>
+                <td>Nombre</td>
+                <td>Tiago</td>
+            </tr>
+            <tr>
+                <td>Apellido</td>
+                <td>Franco</td>
+            </tr>
+            <tr>
+                <td>Dirección</td>
+                <td>Calle Zorrin </td>
+            </tr>
+            <tr>
+                <td>Teléfono</td>
+                <td>123-456-789</td>
+            </tr>
+            <tr>
+                <td>Instagram</td>
+                <td>@1tiagofr</td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
