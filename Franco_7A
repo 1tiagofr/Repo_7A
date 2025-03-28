@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación</title>
+</head>
+<body>
+    <h1>Presentación</h1>
+    
+    <img src="https://example.com/zorro.jpg" alt="Foto de un zorro" width="300">
+
+    <h2>Datos personales</h2>
+    <ul>
+        <li><strong>Nombre:</strong> Juan</li>
+        <li><strong>Apellido:</strong> Pérez</li>
+        <li><strong>Dirección:</strong> Calle Ficticia 123</li>
+        <li><strong>Teléfono:</strong> 123-456-789</li>
+        <li><strong>Instagram:</strong> @juanperez</li>
+    </ul>
+</body>
+</html>
