@@ -1,4 +1,4 @@
-public class EvaluacionAlumno {
+public class Ejercicio1 {
 
     public static void main(String[] args) {
         // Definir las tres notas del alumno
