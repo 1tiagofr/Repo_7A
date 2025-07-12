@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SumaParesSinIf {
+public class ejercicio17b {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Ingrese un número para sumar los pares hasta ese valor: ");
