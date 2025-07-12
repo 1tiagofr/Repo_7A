@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DeterminarDocena {
+public class ejercicio12 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
