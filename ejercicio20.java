@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class NumerosAzarMaxMin {
+public class ejercicio20 {
     public static void main(String[] args) {
         Random rnd = new Random();
         int contador = 0;
